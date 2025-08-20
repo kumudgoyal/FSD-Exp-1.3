@@ -29,7 +29,7 @@ body.dark {
 
 .header {
   grid-area: header;
-  background: linear-gradient(to right, #4facfe, #00f2fe);
+  background: linear-gradient(to right, #fe4fef, #d808fc);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -73,13 +73,13 @@ body.dark .sidebar {
 }
 
 .sidebar ul li:hover {
-  background-color: #4facfe;
+  background-color: #eb5bee;
   color: white;
   transform: translateX(5px);
 }
 
 body.dark .sidebar ul li:hover {
-  background-color: #00c6ff;
+  background-color: #ab14b3;
 }
 
 .main {
@@ -94,8 +94,8 @@ body.dark .main {
 
 .footer {
   grid-area: footer;
-  background: linear-gradient(to right, #4facfe, #00f2fe);
-  color: white;
+  background: linear-gradient(to right, #dc5fdc, #fe00fe);
+  color: rgba(255, 255, 255, 0.978);
   text-align: center;
   padding: 10px;
 }
